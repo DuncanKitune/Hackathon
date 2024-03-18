@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, Initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>WEB TECHNOLOGIES LEVEL 1</h1>
+<title>FIRST HACKATHON</title>
+<style>
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.new-item {
+    margin-bottom: 10px;
+}
+</style> 
+    <div class="nav-container">
+        <a href="#" class="nav-item">Introduction</a>
+        <a href="#" class="nav-item">The Exercises</a>
+        <a href="#" class="nav-item">More Information</a>
+    </div>
+    <h1> Introduction</h1>
+    <p>Today we conducted our first hackathon. It was very fun and challenging. The most challenging part was the speed and accuracy required. We had a few exercises as below. </p>
+    
+    <h1>The Exercises</h1>
+    <h2>The first exercise</h2>
+    <p>The first excerise was hosted on an online gaming site known as Mentimeter. We were tested on our understanding of basic computer 
+        operations especially GIT and GITHub. The exercise had a set of 15 questions. They were all timed to a few seconds.
+        <br>
+        I missed two questions because I was timed out and 3 others because I got the answers wrong.
+       <br>
+        Speed was the real determiner; whether you got the answer right or not, the fastest reply got the highest points.
+        <br>
+    </p>
+        <p>Below is an illustrations of my performance and that of the top scorer.</p>
+        <br>
+    <div class="image-container">
+    <img src = "Hackathon score..png", alt = "My score", target="blank", width="450", height="450" >
+    <br><p class="Image -description">My score</p>
+    <img src = "Hackathon Winner score..png", alt="Winner", target="blank" width="350", height="350">
+     <br><p class="Image -description">Top scorer</p>
+    </div>
+
+<br>
+    <h2>The second exercise</h2>
+    <p>
+        The second exercise was a coding challenge. It focused on three major programming languages ie HTML, DART and Python.
+        The links for the assignments are as below;
+        <p>HTML Exercise
+            <a href="https://github.com/MuriithiEric/web-technologies-level-1-hackathon">Click here to access the HTML excerise</a>
+        </p>
+        <p>DART Exercise
+            <a href="https://github.com/Lenkaa3792/DART-HACKATHON-REPOSITORY/tree/main">Click here to access the DART excerise</a>
+        </p>
+        <p>Python Exercise
+            <a href="https://github.com/Lenkaa3792/DART-HACKATHON-REPOSITORY/tree/main">Click here to access the Python excerise</a>
+        </p>
+    </p>
+    
+<h1>More Information</h1>
+<p>For more information, please fill in the form below so that we can get back to you.
+    <form  action="processing.php" method="post" enctype="multipart/form-data"> 
+        <p>Enter your names, telehone number and Email address</p>   
+        <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Reuben Israel" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" title=Email name="email" id="email" placeholder="john@mail.com" required>
+            <br>
+            <label for="telehone">Telephone:</label>
+            <input type="Telephone" title=Telephone name="Telephone" id="Telephone" placeholder="+25471234567" required>
+            <br>
+            <label for="password">Password:</label> 
+            <input type="password" title="Password" name="password" placeholder="Create a strong password">
+            <br>
+           
+    <br>
+    <P>Please select as appropriate</P>        
+    <label for="inputfield">I am</label>
+            <input type="checkbox" title="I am a student" id="" value="I am a student">
+            <label for="student">a student</label> 
+            <input type="checkbox" title="I am a lecturer" id="" value="I am a lecturer">
+            <label for="lecturer">a lecturer</label> 
+            <input type="checkbox" title="I am an IT ethusiast" id="" value="I am an IT ethusiast">
+            <label for="IT ethusiast">an IT ethusiast</label> 
+            
+    <br><p>
+           <input type="radio" title="gender" id="gender" name="gender" value="Male">
+           <label for="male">Male</label>
+           <br>
+           <input type="radio" title="gender" name="gender" name="gender" value="Female">
+           <label for="female">Female</label> 
+            </p>
+          
+    <br><p>
+           <label for="module">Select a Module</label>                    
+            <br>
+           <select title="modules" name="modules" multiple>
+            <option value="Select One">Select</option>
+            <option value="HTML">HTML</option>
+            <option value="DART">DART</option>
+            <option value="Python">Python</option>
+           </select>
+         </p>   
+          
+    <br>
+            <textarea title="Comment" id="Comment"  name="Comment" rows="10" cols="25" maxlength="5creen-width">
+            Please tell us more about what you are looking for.
+           </textarea>
+           <br>
+           <p>Please upload your document here</p>
+            <label for="file">Upload file:</label>
+            <input type="file" title="file" id="file" name="file" accept="pdf, video, image/*">
+    <br>
+    <br>
+           Please pay for your subscription here.
+    <!-- Radio Buttons -->
+      <label>Check your preferred payment method:</label> <br />
+      <input type="radio" id="credit" name="payment" value="credit" />
+      <label for="credit">Credit Card</label> <br />
+      <input type="radio" id="debit" name="payment" value="debit" />
+      <label for="debit">Debit Card</label> <br />
+      <input type="radio" id="paypal" name="payment" value="paypal" />
+      <label for="paypal">Paypal</label> <br />
+    <br>
+           <br>
+            <input type="submit" value="Save Detail">
+</form>
+
+</p>
+</body>
+</html>   
