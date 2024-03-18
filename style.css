@@ -1,0 +1,41 @@
+/* Apply Flexbox to the container */
+.image-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping if images exceed container width */
+    justify-content: center; /* Center-align items horizontally */
+}
+
+/* Style for individual images */
+.img {
+    width: 20%;
+    border: 1px solid red;
+    padding: 30px; 
+    margin: 10px; /* Adjust margin between images */
+    border-radius: 10%;
+}
+
+body {
+    /* Example of setting a background image */
+    background-color: blue, url(""); /* Replace "background.jpg" with your image path */
+}
+
+
+.paragraph {
+    color: rgb(0, 255, 221);
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    border: 1px solid black;
+    width: 500px;
+    height: 600px;
+    background-color: aqua;
+    position: relative;
+    float: right;
+    display: flex;
+    gap: 10px;
+}
+
+.item {
+    padding: 30px;
